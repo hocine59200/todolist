@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+    padding: 15px;
+    text-align: center;
+    background-color: #75c479;
+}
+
+div.scrollmenu {
+    background-color: rgb(231, 235, 12);
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: rgb(17, 121, 7);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+
+  /*le style du formulaire*/
+
+  h3
+  {
+padding: 15px;
+background-color: #8bcc8e;
+text-align: center;
+
+
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #f0ec0b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #09a52b;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #c26d0b;
+    padding: 20px;
+  }
+
+
+
+/* le deuxieme container2*/
+
+
+
+.container2{
+    background: rgb(21, 159, 177);
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+}
+#newtask{
+    position: relative;
+    padding: 40px 300px;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
